@@ -13,5 +13,7 @@ $ git clone https://github.com/No9/rust-rocket-api
 $ cd rust-rocket-api
 $ ibmcloud login -a https://api.eu-gb.bluemix.net
 $ ibmcloud target --cf
-$ ibmcloud cf push mywizzbang --random-route -p .
+$ ibmcloud cf push rust-rocket-api --random-route -p .
 ```
+
+N.B. If you do publish to IBM Cloud on EU you will probably have to rename this project as it will clash with mine :)
