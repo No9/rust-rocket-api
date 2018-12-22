@@ -2,7 +2,7 @@
 
 A sample [Rust](https://www.rust-lang.org/) app that uses [Rocket.rs](https://rocket.rs/) to implement a very basic API along with the manifest to deploy it to [Cloud Foundry](https://www.cloudfoundry.org/) using [a buildpack configured to use nightly](https://github.com/No9/rust-buildpack).
 
-## pre-requisits
+## pre-requisites
 A cloud foundry account on a PaaS provider.
 I've chosen [IBM Cloud](https://console.bluemix.net/registration/) as it has a no credit card free tier.
 
